@@ -7,20 +7,25 @@
       /*GORGEOUS STYLING TO FOLLOW html{background:red;}*/
       /* GLOBAL STYLES */
       a {
-        color: red;
+        color: rgba(200, 0, 200, 0.25);
       }
-      div.bio-box {
+      /*div.bio-box {
         border: 1px solid green;
-      }
+      }*/
 
       /* SOCIAL STYLES */
       .social-link {
+        background: rgba(150, 150, 150, 0.5);
         color: blue;
       }
 
       /* BIO STYLES */
-      ;.bio-box {
-        border: 1px solid black;
+      .bio-wrapper {
+        /*width: 500px;*/
+      }
+      .bio-box {
+        border: 10px solid black;
+        width: 50%;
       }
       .bio-copy a {
         color: green;
@@ -29,6 +34,7 @@
   </head>
   <body>
       <h1>I'm an h1</h1>
+    <div class="social-link">
     <ul>
       <li>
         <a href="http://example.com/">Link</a>
@@ -40,8 +46,10 @@
         <a href="http://example.com/">Link</a>
       </li>
     </ul>
+    </div>
     <h2>I'm an h2</h2>
-    <div class="bio-box">
+      <div class="bio-wrapper">
+      <div class="bio-box">
       <h3>Michael Hartl</h3>
       <a href="http://twitter.com/mhartl" class="social-link">here</a>
       <div class="bio-copy">
